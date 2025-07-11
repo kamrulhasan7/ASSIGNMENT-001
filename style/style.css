@@ -19,6 +19,7 @@ body{
     --whiteColor:#ffffff;
     --textColor:#252432;
     --paragraphColor:rgba(37, 36, 50, 0.5);
+    --secondaryColor:#1E1E1E;
 }
 
 
@@ -163,4 +164,81 @@ p{
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
 }
+
+
+/* User Feedback section style */
+
+.feedback_container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback_items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.feedback_content{
+    max-width: 365px;
+    background: var(--whiteColor);
+    padding: 24px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.star_icon{
+    display: flex;
+    gap: 4px;
+}
+.star_icon img{
+    height: 20px;
+    width: 20px;
+}
+
+.feedback_message h5{
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--secondaryColor);
+    margin-bottom: 8px;
+}
+.feedback_message p{
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--secondaryColor);
+}
+
+.feedback_user{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.feedback_user_image img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.feedback_user_details h6{
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 700;
+    color: #757575;
+}
+.feedback_user_details P{
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    color: #B3B3B3;
+}
+
 
