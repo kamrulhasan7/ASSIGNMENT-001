@@ -173,13 +173,16 @@ p {
 
 
 /* User Feedback section style */
-
 .feedback_container {
     display: flex;
     flex-direction: column;
     gap: 50px;
     align-items: center;
     justify-content: center;
+}
+
+.feedback_content:hover{
+    box-shadow: 2px 2px  10px rgba(0, 0, 0, 0.5);
 }
 
 .feedback_items {
@@ -197,6 +200,7 @@ p {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    transition: all .2s;
 }
 
 .star_icon {
