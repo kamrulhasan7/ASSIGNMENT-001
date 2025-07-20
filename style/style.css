@@ -62,7 +62,7 @@ nav {
 }
 
 /* all btn hover effect */
-.btn:hover{
+.btn:hover {
     background: #0600ad;
 }
 
@@ -127,6 +127,7 @@ h3 {
     font-weight: 700;
     font-family: "Raleway";
     color: var(--textColor);
+    text-align: center;
 }
 
 p {
@@ -181,8 +182,8 @@ p {
     justify-content: center;
 }
 
-.feedback_content:hover{
-    box-shadow: 2px 2px  10px rgba(0, 0, 0, 0.5);
+.feedback_content:hover {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 .feedback_items {

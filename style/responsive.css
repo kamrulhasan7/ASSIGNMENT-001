@@ -1,0 +1,86 @@
+/* responsive 1024px */
+@media screen and (max-width:1024px) {
+    nav, .hero, main{
+        max-width: 90%;
+    }
+
+
+    
+}
+
+/* responsive 768px */
+@media screen and (max-width:768px) {
+    .feedback_items{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .action{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .action_content{
+        order: 2;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .focus_container{
+        text-align: center;
+        padding: 2rem 1.5rem;
+    }
+
+    .touch_container{
+        flex-direction: column;
+        padding: 0px 0px 50px 0px;
+    }
+    .touch_container h1{
+        text-align: center;
+    }
+    .users_item{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .user h1{
+        font-size: 60px;
+    }
+
+    .touch_container h1{
+        font-size: 80px;
+    }
+
+    h3{
+        font-size: 35px;
+    }
+}
+
+/* responsive 520px */
+@media screen and (max-width:520px) {
+    .hero h1{
+        font-size: 45px;
+    }
+    .hero{
+        padding-block: 50px;
+    }
+
+    h3{
+        font-size: 30px;
+    }
+    .productive_users{
+        padding-inline: 1rem;
+    }
+
+    .focus_container h2{
+        font-size: 35px;
+    }
+
+    .touch_container h1{
+        font-size: 50px;
+    }
+    .footer_container h1{
+        font-size: 70px;
+    }
+
+    .footer_container{
+        max-width: 95%;
+    }
+}
